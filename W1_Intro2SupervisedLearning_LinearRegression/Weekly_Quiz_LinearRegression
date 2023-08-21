@@ -1,0 +1,118 @@
+In the below linear regression equation y = -3.4x - 2.5, what are the coefficient, dependent variable, independent variable, and constant respectively?
+
+-3.4, -2.5, x, y
+x, y, -2.5, -3.4
+x, -3.4, -2.5, y
+-3.4, y, x, -2.5 - Correct Answer
+------------------------------------------------------------------------------------
+In linear regression, coefficients are the values that are multiplied by the predictor values. Suppose you have the following regression equation:
+y = mX + c
+
+In this equation, m is the coefficient, X is the independent variable, c is the constant, and y is the dependent variable.
+Q No: 2
+Correct Answer
+
+When the value of Pearson’s correlation coefficient between two continuous variables is 0.95, what does it imply?
+
+The variables are strongly positively correlated - Correct Answer
+--------------------------------------------------------------------------------------------
+Pearson correlation coefficient gives the linear relationship between variables. 
+It is a value that ranges between -1 and +1. 
+A negative value indicates a negative relationship, a positive value indicates a positive relationship, and values closer to 0 indicate no linear relationship.
+In the above plot, the data points of two variables are plotted against each other. What can be said about the correlation (r) between the two variables?
+
+r is close to -1
+Correct Option
+From the graph, it is clear that when one variable increases, the other decreases. Also, the rate of decrease is high. As such, the correlation (r) will be close to -1.
+--------------------------------------------------------------------------------------------------
+
+If 'w', 'x', 'y', and 'z' are the predictors and 't' is the target, then from the equation
+
+t = 10 + 0.3w + 0.5x + 0.2y + z
+
+if all the predictors are zero except 'z' and z = 8, then t =
+18 - Correct
+
+Substituting x = 0, y = 0, w = 0 in the equation,
+we get
+t = 10 + 0 + 0 + 0 + 8
+  = 18
+------------------------------------------------------------------------------------------------
+Choose the correct option to complete the following statement.
+The objective of linear regression is to __________ the sum of squared vertical distances.
+
+minimize - Correct
+---------------------------------------------
+The vertical distances are a measure of how far away the prediction is from the actual value, and these are called residuals. We aim to reduce the sum of the magnitudes of these residuals which helps the predicted values to get closer to the actual values.
+Q No: 6
+Correct Answer
+
+Marks: 1/1
+The method of least squares of residuals is commonly used to get the best fit with linear regression, in which the sum of squared residuals is minimized. The reason why the sum of absolute residuals (|y- y_pred|) is not used is that -
+
+the sum of absolute values is not easy to differentiate.
+--------------------------------------------------------------------------------------------------
+
+Which of the following conclusions is correct based on the following hypothetical statement:
+
+"The line of regression perfectly fits on training data"
+
+A. The error on training data will be 0.
+B. The regression line will pass through all the training data points.
+C. The error on test data will always be 0.
+D. The error on training data will not be 0.
+Only A and B - Correct
+------------------------------------------------------------------------------------------------------
+It is evident from the statement that if the line of regression perfectly fits the training data then it will be passing through all the data points of the training dataset, which in turn will make the training error equal to 0 (as there is no difference between the actual and the predicted values).
+
+Now, if the test data is a perfect representative of train data then only the error on test data will be zero but it is not always true. Hence the statement in ‘C’ is not correct.
+Q No: 8
+Correct Answer
+
+Marks: 1/1
+What is the coefficient of determination (R-squared) in linear regression?
+
+The slope of the regression line
+
+The standard error of the estimate
+
+A measure of the significance of the independent variable
+
+A measure of how well the model fits the data
+You Selected
+
+The coefficient of determination (R-squared) is a statistical measure that represents the proportion of the variance in the dependent variable that is explained by the independent variable(s) in a linear regression model. It tells us how well our linear regression model predicts the data.
+Q No: 9
+Correct Answer
+
+Marks: 1/1
+
+Suppose you have a data set for predicting medical charges, and you have added a new independent variable 'weight' to the data set in an attempt to improve model performance.
+
+How would you determine if the addition of this independent variable is useful in predicting charges?
+
+If R-squared increases, it can be said that the added variable is useful for prediction.
+
+If adjusted R-squared decreases, it can be said that the added variable is useful for prediction.
+
+If adjusted R-squared increases, it can be said that the added variable is useful for prediction.
+You Selected
+
+If R-squared decreases, it can be said that the added variable is useful for prediction.
+
+R-squared individually can’t tell whether a variable is useful for prediction or not. Whenever we add a new variable, the R-squared value will increase. But, that is not true in the case of adjusted R-squared, which increases only when the added variable is useful for model prediction.
+Q No: 10
+Correct Answer
+
+Marks: 1/1
+
+State whether the following statement is True or False:
+
+The cross-validation technique is used for reducing overfitting.
+
+True
+You Selected
+
+False
+
+The cross-validation technique helps to reduce overfitting and improve performance on the test data.
